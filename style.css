@@ -113,7 +113,35 @@ img {
 }
 
 /*=============== HEADER & NAV ===============*/
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+  }
 
+.nav {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--first-color);
+}
+
+.nav__toggle,
+.nav__close {
+  display: flex ;
+  font-size: 1.5rem;
+  color: var(--white-color);
+  cursor: pointer;
+}
 
 /* Navigation for mobile devices */
 
