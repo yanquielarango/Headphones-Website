@@ -357,13 +357,13 @@ img {
   width: 220px;
   display: grid;
   justify-items: center;
-  /* filter: blur(8px); */
-  /* scale: .8; */
+  filter: blur(8px);
+  scale: .8;
   transition: filter .3s, scale 3.s;
 }
 
-.favarite__img {
-  width: 220px;
+.favorite__img {
+  width: 230px;
   margin-bottom: 1.5rem;
 }
 
@@ -376,6 +376,11 @@ img {
 }
 
 /* Swiper class */
+.swiper-slide-active,
+.swiper-slide-duplicate-active {
+  filter: blur(0);
+  scale: 1;
+}
 
 
 /*=============== MODEL ===============*/
