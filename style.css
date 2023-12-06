@@ -144,6 +144,16 @@ img {
 }
 
 /* Navigation for mobile devices */
+@media (max-width: 1150px) {
+  .nav__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: hsla(23, 12%, 4%, .2);
+    width: 100%;
+    padding-block: 5.5rem;
+  }
+}
 
 
 /* Show menu */
